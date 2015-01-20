@@ -1,0 +1,61 @@
+Enter file contents here<div class="row">
+
+	<!--Grundprogrammcode ist von bootstrap http://getbootstrap.com/components/#navbar-->
+	<nav class="navbar navbar-default" style="background-color:white;border:none;" role="navigation">
+		<div class="container-fluid">
+
+			<!--class navbar header ist der Teil der beim kleiner machen der Seite noch angezeit wird-->
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span><!--bilden die drei Striche des Menü-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="Startseite_angemeldet.php"><img src="Logo_HFU_Mitfahrboerse.png" class="img-responsive"  border="0" alt="Logo_HFU"></a>
+			</div> <!-- Ende .navbar-header -->
+
+	
+			<!--class collapse navbar collapse... ist der Teil der beim kleiner machen der Seite in das Menü auf der rechten Seite springt-->
+			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+	
+				<!--ul's springen beim Kleiner machen in das Men??d-->
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="fahrt_suchen.php">Fahrt suchen</a>
+					</li>
+					<li>
+						<a href="fahrt_anbieten.php">Fahrt anbieten</a>
+					</li>
+				</ul>
+  
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="nachrichten.php" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Nachrichten</a></li>
+					<!--li><a href="kalender.php" ><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Kalender</a></li-->
+					<li><a href="profil.php" ><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Profil</a></li>
+					<!--Beschreibung hierfür ist auf http://getbootstrap.com/components/#dropdowns zu finden-->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> Men&uuml;<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="meineangebote.php">Meine Angebote</a></li>
+							<li><a href="meineanfragen.php">Meine Anfragen</a></li>
+							<li><a href="gemerktefahrten.php">gemerkte Fahrten</a></li>
+							<li class="divider"></li><!-- Trennstrich-->
+							<li><a href="logout.php">abmelden</a></li>
+						</ul>
+					</li><!-- Ende .dropdown -->
+				</ul> <!-- Ende .nav navbar-nav navbar-right -->
+			</nav> <!-- Ende .collapse navbar-collapse bs-navbar-collapse-->
+		</div>
+	</nav> <!-- Ende navbar navbar-default -->
+	
+	<!--gr&uuml;ner Balken unter der Navigation-->
+  <div id="Headerbalken" ></div>
+  
+</div>	<!-- Ende .row -->
+
+
+
+
+
+
