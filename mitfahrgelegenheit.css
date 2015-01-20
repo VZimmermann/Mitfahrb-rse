@@ -1,0 +1,167 @@
+@media screen {
+	/* ... Formatdefinitionen zur Bildschirmausgabe ... */
+	.noprint {
+		display: inline;
+	}
+	
+/*allgemeine Einstellungen*/
+body,html{
+	background-image:url(strasse_gross.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	font-family:Universe;
+	font-size:100%;
+	color:#737373;/* das ist der graue Farbton nach CI der Hochschule*/
+}
+
+
+.container{
+	background: rgba(255,255,255,1.0);
+}
+
+p {
+	position:static;
+	line-height:150%;
+	margin:5px;
+	padding:5px;
+}
+	
+h2 {
+	margin:5px;
+	padding:5px;
+	margin-top:10px;
+}
+#balken_gruen{
+	background-color: #83B81A; /*das ist der Farbton nach CI der Hochschule*/
+	height:5%;
+}
+
+
+/*Headereinstellungen
+#Header{
+	height:80px;
+}
+
+div#Header img	{
+
+margin-top:0.6%;
+margin-right:0.9%;
+}
+
+div#Header nav{
+background-color:#737373;
+}
+
+div#Header li{
+text-decoration:none;
+font-weight:normal;
+color:red;
+list-style:none;
+}  
+
+div#Header ul	{
+   background-color: #737373;
+   color:white;
+   text-decoration:none;
+    padding: 0px;
+    margin: 0px;
+	
+ }
+ 
+ div#Header ul li	{
+	color:white;
+	padding:0.5%;
+ }
+ 
+ div#Header ul li a	{
+	text-decoration: none;
+    display: block;
+    color: white;
+}
+
+div#Header ul li ul{
+    display: inline;
+    visibility: hidden;
+    position: absolute;
+    padding:0px;
+}
+
+div#Header ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 10;
+    height: 0;
+    visibility: hidden;
+}
+
+div#Header ul li:hover >ul {
+    visibility: visible;
+}
+
+div#Header ul li ul li{
+    float: none;
+}
+
+div#Header ul li ul li a:hover{
+    color: black;
+	background-color:white;
+}
+*/
+/*grüner Balken im Header*/
+#Headerbalken{
+	bottom:0;
+	height:7%;
+	padding-left:5%;
+	padding-top:1%;
+	background-color: #83B81A;
+	color:white;
+}
+
+/*Footereinstellungen*/
+#Footerbalken{
+	bottom:0;
+	height:7%;
+	padding-left:5%;
+	padding-top:1%;
+	background-color: #83B81A;
+	color:white;
+	}
+div#Footerbalken a{
+	color:white;
+	text-decoration:none;
+}
+
+div#Footerbalken a:hover, div#Footerbalken a:focus, div#Footerbalken a:visited {
+	color:white;
+	text-decoration:none;
+}
+
+/*weißer Balken im Footer*/
+#balken_weiss_2{
+	height:165px;
+	width:100%;
+}
+
+img#Studieren{
+	position:absolute;
+	right:5%;
+	
+}
+
+
+#gruenerBalken	{
+	height:7%;
+	padding-left:5%;
+	padding-top:1%;
+	background-color: #83B81A;
+	
+}
+
+.submit	{
+			background-color:#83B81A;
+			border:none;
+		}
+
+
+
