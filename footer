@@ -1,0 +1,21 @@
+<div class="row">	
+	<br>
+	<br>
+
+	<!--Weisser Balken mit Schriftzug Studieren auf h&ouml;chstem Niveau-->
+	<div id="balken_weiss_2">
+		<div class="col-md-12"><img src="Studieren_auf_hoechstem_Niveau.jpg" id="Studieren" class="img-responsive" alt="Responsive image"></div>
+	</div>
+	
+	<br>
+	
+	<!--grüner Balken mit Links-->
+	<div id="Footerbalken">
+		<a href="faq.php" target="_blank">FAQ</a> | <a href="datenschutz.php" target="_blank">Datenschutz</a> | <a href="agb.php" target="_blank">AGB</a> | <a href="impressum.php" target="_blank">Impressum</a> | <a href="kontakt.php" target="_blank">Kontakt</a>
+	</div>
+	
+ </div> <!--Ende .row -->
+ 
+ 
+ 
+ 
