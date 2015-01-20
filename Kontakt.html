@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HFU Mitfahrboerse</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+    <meta name="author" content="Julia Klimesch, Lisa Wojtynek,Vanessa Zimmermann" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+	<meta name="keywords" content="HFU, Hochschule Furtwangen, Mitfahrgelegenheit, Furtwangen, Hochschule">
+	<meta name="description" content="Auf dieser Seite finden Sie die HFU Mitfahrgelegenheit. Konzipiert nur f&uuml;r Studenten und Angestellte der Hochschule Furtwangen.">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="mitfahrgelegenheit.css" />
+	<link href="carousel.css" rel="stylesheet">
+	
+	</head>
+<body>
+
+
+<div class="container">
+<div class="row">
+ <nav class="navbar navbar-default" style="background-color:white;border:none;" role="navigation">
+  <div class="container-fluid">
+  
+    <div class="navbar-header">
+	<!--bildet das Men𺥩chen beim kleiner machen ab und steht f𲠤en Teil, der nach dem verkleinern 𢥲haupt noch angezeigt wird-->
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="Startseite.html"><img src="Logo_HFU_Mitfahrboerse.png" border="0" class="img-responsive" alt="Logo_HFU"></a>
+	  
+				
+    </div>
+	
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <!--ul's springen beim Kleiner machen in das Men𢩬d-->
+	  <ul class="nav navbar-nav">
+        <li>
+          <a href="fahrt_suchen.html">Fahrt suchen</a>
+        </li>
+        <li>
+          <a href="fahrt_anbieten.html">Fahrt anbieten</a>
+        </li>
+			
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+			<li><a href="nachrichten.html" ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Nachrichten</a></li>
+			<li><a href="kalender.html" ><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Kalender</a></li>
+			<li><a href="profil.html" ><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Profil</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> Men&uuml;<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="meine_angebote.html">Meine Angebote</a></li>
+					<li><a href="meine_anfragen.html">Meine Anfragen</a></li>
+					<li><a href="gemerkte_fahrten.html">Gemerkte Fahrten</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Abmelden</a></li>
+				</ul>
+			</li>
+
+      </ul>
+    </nav>
+ </div>
+
+</nav>
+
+	<!--gr&uuml;ner Balken unter der Navigation-->
+	<div id="gruenerBalken" ></div>
+</div><!--Ende row-->
+
+  <!--Header Bildteil-> drei Bilder die routieren und wo die zwei Buttons schon integriert sind
+  http://getbootstrap.com/2.3.2/examples/carousel.html-->
+  
+ 
+ <div class="row">
+	<div class="col-md-5"> 
+ <form method="post" action="versand.php" name="kontaktformular">
+	 <h1> Kontaktiere Uns!</h1></br>
+	 <p style="font-size:0.8em">Mit *gekennzeichnete Felder sind Pflichtfelder</p></br>
+	 
+	 <p>Anrede* </br>
+				<select size="1" name="anrede" id="anrede" >
+                     <option value="-" selected> - </option>
+                     <option value="Herr">Herr</option>
+					 <option value="Frau">Frau</option>
+				 </select></p>
+ 
+ 
+ <p>Vorname* </br><input name="vorname" type="text" size="25" maxlength="20"></p>
+ <p> Nachname* </br><input name="nachname" type="text" size="25" maxlength="20"></p>
+ <p>E-Mail* </br><input name="mail" type="text" size="25" maxlength="46"></p>
+ <p>Betreff* </br><input name="betreff" id="betreff" type="text" size="58" maxlength="55"></p>
+<p>Deine Nachricht* </br><textarea id="nachricht" name="nachricht" cols="55" rows="7"></textarea></p></br>	
+<input type="submit" value="Nachricht senden" />
+ </div>
+ 
+ <div class="col-md-5">
+	</br></br>
+	<img src="tasche.jpg" alt="Tasche" width="600" height="400">
+	
+
+ 
+ </form>
+ </div>
+ </div>
+ 
+ <div class="row">
+	<br>
+	<br>
+	<!--Weiࠥr Balken mit Schriftzug Studieren auf h򣨳tem Niveau-->
+	<div id="balken_weiss_2" >
+		<div class="col-md-12" >
+			<img src="Studieren_auf_hoechstem_Niveau.jpg"  id="Studieren"class="img-responsive" alt="Responsive image" >
+		</div>
+	</div>
+	
+	<!--Footer-->
+	<div id="Footer">
+		<a href="faq.html" target="_blank">FAQ</a> | <a href="datenschutz.html" target="_blank">Datenschutz</a> | <a href="agb.html" target="_blank">AGB</a> | <a href="impressum.html" target="_blank">Impressum</a> | <a href="kontakt.html" target="_blank">Kontakt</a>
+	</div>
+ </div>
+ 
+</div><!--Ende Container div-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
